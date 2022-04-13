@@ -1,20 +1,21 @@
 package occuranceword;
 
-import java.util.LinkedHashSet;
 //without length reverse
 public class Test7 {
 public static void main(String[] args) {
-	String s="khatam tata bye bye";
+	String s="bb b bb";
 	String[]s1=s.split(" ");
-	int count=0;
-	LinkedHashSet<String> lh=new LinkedHashSet<String>();
-	for(String i:s1) {
-		count++;
+	String rev="";
+	for(int i=s1.length-1;i>=0;i--) {
+		rev=rev+s1[i]+" ";
 	}
-	//System.out.println(count);
-	for(int i=count-1;i>=0;i--) {
-		System.out.print(s1[i]);
+	System.out.println(rev);
+	if(s==rev) {
+		System.out.println("Given sentence is pallindrome");
 	}
+	else
+		System.out.println("Not pallindrome");
 	}
+
 }
 
