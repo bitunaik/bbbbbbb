@@ -3,7 +3,7 @@ package occuranceword;
 //without length reverse
 public class Test7 {
 public static void main(String[] args) {
-	String s="bb b bb";
+	String s=" bb b bb";
 	String[]s1=s.split(" ");
 	String rev="";
 	for(int i=s1.length-1;i>=0;i--) {

@@ -13,8 +13,8 @@ public static void main(String[] args) {
 		}
 	}
 	System.out.println("Ascending order---->");
-	for (int i : arr) {
-		System.out.print(i+" "); //ascending order
+	for (int i =0;i<arr.length;i++) {
+		System.out.print(arr[i]+" "); //ascending order
 	}
 	System.out.println();
 	System.out.println("Discending order---->");

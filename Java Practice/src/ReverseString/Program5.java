@@ -5,10 +5,14 @@ public class Program5 {
 		String rev="";
 		String s="welcome";
 		int count=0;
-		char[]conChar=s.toCharArray();
-		for(char i:conChar) {
+		String[]s1=s.split("");
+		for(String i:s1) {
 			count++;
 		}
+//		char[]conChar=s.toCharArray();
+//		for(char i:conChar) {
+//			count++;
+//		}
 		for(int i=count-1;i>=0;i--) {
 			rev=rev+s.charAt(i);
 		}

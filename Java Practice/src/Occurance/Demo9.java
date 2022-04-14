@@ -2,10 +2,10 @@ package Occurance;
 
 import java.util.LinkedHashSet;
 
-//print the index number also
+//print the index number 
 public class Demo9 {
 public static void main(String[] args) {
-	String s="abcd";
+	String s="abacd";
 	LinkedHashSet<Character> set= new LinkedHashSet<Character>();
 	for(int i=0;i<s.length();i++) {
 		set.add(s.charAt(i));

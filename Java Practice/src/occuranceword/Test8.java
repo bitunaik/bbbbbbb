@@ -1,5 +1,5 @@
 package occuranceword;
-
+//reverse the words in there place
 public class Test8 {
 public static void main(String[] args) {
 	String s="khatam tata bye bye";

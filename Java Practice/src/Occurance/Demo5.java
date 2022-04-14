@@ -11,12 +11,6 @@ public static void main(String[] args) {
 		hs.add(s.charAt(i));  
 	}
 	for(Character i:hs) {
-		int count=0;
-		for(int j=0;j<s.length();j++) {
-			if(i.equals(s.charAt(j))) {
-				count++;
-			}
-		}
 		System.out.print(i);
 	}
 	
