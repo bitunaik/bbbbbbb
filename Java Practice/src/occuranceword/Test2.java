@@ -1,11 +1,13 @@
 package occuranceword;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 //number of character occurence in an string
 public class Test2 {
 public static void main(String[] args) {
 	String s="khatam tata bye bye";
-	HashSet<Character> hs=new HashSet<Character>();
+//	HashSet<Character> hs=new HashSet<Character>();
+	LinkedHashSet<Character> hs = new LinkedHashSet<Character>();
 	for(int i=0;i<s.length();i++) {
 		hs.add(s.charAt(i));   
 	}
@@ -16,9 +18,7 @@ public static void main(String[] args) {
 				count++;
 			}
 		}
-	
 		System.out.println(i+"="+count);
-		
 	}
 }
 }

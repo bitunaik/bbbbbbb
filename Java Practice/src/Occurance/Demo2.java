@@ -17,9 +17,7 @@ public static void main(String[] args) {
 				count++;
 			}
 		}
-	
-		System.out.println(i+"="+count);
-		
+		System.out.println(i+"="+count);	
 	}	
 }
 }
