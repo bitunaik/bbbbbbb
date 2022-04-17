@@ -3,7 +3,7 @@ package Occurance;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 //remove duplicate character in the string
-public class Demo5 {
+public class Remove_Duplicate_Char {
 public static void main(String[] args) {
 	String s="wxxxelllcomeeeww";
 	LinkedHashSet<Character> hs= new LinkedHashSet<Character>();

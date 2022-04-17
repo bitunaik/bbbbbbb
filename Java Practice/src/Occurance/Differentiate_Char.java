@@ -2,8 +2,7 @@ package Occurance;
 
 import java.util.LinkedHashSet;
 
-public class Demo7 {
-
+public class Differentiate_Char {
 	public static void main(String[] args) {
 		String s="abcd@@@abc@@@dabcd";
 		LinkedHashSet<Character> hs= new LinkedHashSet<Character>();

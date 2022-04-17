@@ -1,6 +1,6 @@
 package Occurance;
 
-public class Demo1 {
+public class No_Of_Character_In_word {
 public static void main(String[] args) {
 	String s="welcome";
 	for(int i = 0;i<s.length();i++) {

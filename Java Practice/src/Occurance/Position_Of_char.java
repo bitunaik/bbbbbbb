@@ -3,7 +3,7 @@ package Occurance;
 import java.util.LinkedHashSet;
 
 //print the position 
-public class Demo9 {
+public class Position_Of_char {
 public static void main(String[] args) {
 	String s="Tester";
 	s=s.toLowerCase();

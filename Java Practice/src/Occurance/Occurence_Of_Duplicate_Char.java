@@ -2,10 +2,10 @@ package Occurance;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
-//occurence of duplicae and unique character
-public class Demo4 {
-	public static void main(String[] args) {
-		
+//Occurrence of duplicate character in an String
+public class Occurence_Of_Duplicate_Char {
+public static void main(String[] args) {
+	
 		String s="Hoolaa";
 		LinkedHashSet<Character> hs= new LinkedHashSet<Character>();
 		for(int i=0;i<s.length();i++) {
@@ -18,11 +18,8 @@ public class Demo4 {
 					count++;
 				}
 			}
-			if(count==1) {
-			System.out.println("unique character is  "+i);
-			}
-			else {
-				System.out.println("duplicate character is  "+i);
+			if(count>1) {
+			System.out.println(i+"="+count);
 			}
 		}	
 	}

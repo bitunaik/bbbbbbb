@@ -1,23 +1,25 @@
 package Occurance;
 
-import java.util.HashSet;
 import java.util.LinkedHashSet;
-//occurance of characters in an string
-public class Demo2 {
+//print unique character and there index number/position
+public class Character_With_Index {
 public static void main(String[] args) {
-	String s="Hoolaa";
+	String s="welcome";
 	LinkedHashSet<Character> hs= new LinkedHashSet<Character>();
 	for(int i=0;i<s.length();i++) {
-		hs.add(s.charAt(i));      //hs = Hola
+		hs.add(s.charAt(i)); //hs=welcom
 	}
 	for(Character i:hs) {
 		int count=0;
 		for(int j=0;j<s.length();j++) {
 			if(i.equals(s.charAt(j))) {
 				count++;
+				System.out.println(i+" index is "+j);
 			}
 		}
-		System.out.println(i+"="+count);	
-	}	
+		if(count==1) {
+			//System.out.println(i+" index is "+s.indexOf(i));
+		}
+	}
 }
 }
