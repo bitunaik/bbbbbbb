@@ -5,8 +5,7 @@ import java.util.LinkedHashSet;
 //number of character occurence in an string
 public class Test2 {
 public static void main(String[] args) {
-	String s="khatam tata bye bye";
-//	HashSet<Character> hs=new HashSet<Character>();
+	String s="khatam ta ta bye bye";
 	LinkedHashSet<Character> hs = new LinkedHashSet<Character>();
 	for(int i=0;i<s.length();i++) {
 		hs.add(s.charAt(i));   

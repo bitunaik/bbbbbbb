@@ -15,6 +15,7 @@ public static void main(String[] args) {
 			if(i.equals(s.charAt(j))) {
 				count++;
 				System.out.println(i+" index is "+j);
+				break;
 			}
 		}
 		if(count==1) {
