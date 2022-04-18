@@ -1,8 +1,8 @@
 package ReverseString;
 
-public class Program7 {
+public class PallindromeNumber {
 	public static void main(String[] args) {
-		int a=121;
+		int a=123;
 		int v=a;
 		int rev=0;
 		while(a!=0) {

@@ -7,7 +7,7 @@ public class Reversenumber {
 		int a=2453;
 		
 		while(a!=0){
-			System.out.println(a%10);
+			System.out.print(a%10);
 			a=a/10;
 		}
 	}

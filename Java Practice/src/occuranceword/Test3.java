@@ -1,7 +1,7 @@
 package occuranceword;
 
 import java.util.LinkedHashSet;
-//occurence of unique word
+//occurence of duplicate word
 public class Test3 {
 public static void main(String[] args) {
 	String s="khatam tata bye bye";
